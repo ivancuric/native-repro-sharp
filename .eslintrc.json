@@ -1,15 +1,7 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "@typescript-eslint",
-    "jest",
-    "jest-dom",
-    "testing-library",
-    "@emotion",
-    "simple-import-sort",
-    "import"
-  ],
+  "plugins": ["@typescript-eslint", "@emotion", "simple-import-sort", "import"],
   "extends": [
     "react-app",
     "eslint:recommended",
@@ -17,11 +9,7 @@
     "plugin:@typescript-eslint/recommended",
     // "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:import/typescript",
-    "prettier",
-    "plugin:jest/recommended",
-    "plugin:jest/style",
-    "plugin:testing-library/react",
-    "plugin:jest-dom/recommended"
+    "prettier"
   ],
   "rules": {
     "@typescript-eslint/explicit-module-boundary-types": 0,

@@ -1,0 +1,14 @@
+prefix=/Users/pekka/work/futudent/novocam-sw/src/video-module/scripts/FFmpeg/../../FFmpeg/macos
+exec_prefix=${prefix}
+libdir=/Users/pekka/work/futudent/novocam-sw/src/video-module/scripts/FFmpeg/../../FFmpeg/macos/lib
+includedir=/Users/pekka/work/futudent/novocam-sw/src/video-module/scripts/FFmpeg/../../FFmpeg/macos/include
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 58.10.100
+Requires: 
+Requires.private: libavfilter >= 7.85.100, libswscale >= 5.7.100, libavformat >= 58.45.100, libavcodec >= 58.91.100, libswresample >= 3.7.100, libavutil >= 56.51.100
+Conflicts:
+Libs: -L${libdir}  -lavdevice 
+Libs.private: -framework Foundation -lm -framework AVFoundation -framework CoreVideo -framework CoreMedia -pthread -framework CoreGraphics
+Cflags: -I${includedir}

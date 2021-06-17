@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "ES2020",
+    "target": "ES2019", // ES2020 breaks webpack4
+    "strict": true,
+    "lib": ["ESNext", "DOM"],
+    "isolatedModules": true,
+    "importsNotUsedAsValues": "error",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsxImportSource": "@emotion/react",
+    "jsx": "react-jsx",
+    "baseUrl": "./app",
+    "paths": {
+      "~/components/*": ["./renderer/components/*"],
+      "~/renderer/*": ["./renderer/*"],
+      "~/main/*": ["./main/*"],
+      "~/ipc/*": ["./ipc/*"],
+      "~/utils/*": ["./utils/*"],
+      "~/locales/*": ["./locales/*"]
+    }
+  },
+  "ts-node": {
+    // these options are overrides used only by ts-node
+    // same as our --compilerOptions flag and our TS_NODE_COMPILER_OPTIONS environment variable
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "include": ["app/**/*", "_scripts/**/*"]
+}

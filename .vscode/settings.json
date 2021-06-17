@@ -1,0 +1,18 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "i18n-ally.localesPaths": ["app/locales"],
+  "i18n-ally.keystyle": "nested",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "native-addons/video-module/FFmpeg": true
+  },
+  "explorerExclude.backup": null,
+  "search.exclude": {
+    "native-addons/video-module/FFmpeg": true
+  }
+}

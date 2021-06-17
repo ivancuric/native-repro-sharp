@@ -1,0 +1,27 @@
+{
+  "author": "Pekka Mikkola",
+  "cmake-js": {
+    "runtime": "electron",
+    "runtimeVersion": "12.0.2"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "cmake-js": "^6.1.0",
+    "node-addon-api": "^3.1.0"
+  },
+  "description": "Selected parts of FFmpeg functionality for Node",
+  "keywords": [
+    "ffmpeg",
+    "video",
+    "camera"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "video-module",
+  "scripts": {
+    "install": "cmake-js compile",
+    "install-debug": "cmake-js compile --debug",
+    "clean": "rimraf build"
+  },
+  "version": "1.0.0"
+}

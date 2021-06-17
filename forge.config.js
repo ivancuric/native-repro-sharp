@@ -65,9 +65,6 @@ const config = {
               html: './app/renderer/index.html',
               js: './app/renderer/index.tsx',
               name: 'main_window',
-              preload: {
-                js: './app/renderer/preload.ts',
-              },
             },
           ],
         },

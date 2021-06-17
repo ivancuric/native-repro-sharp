@@ -21,7 +21,6 @@ function createWindow() {
       nodeIntegrationInWorker: true,
       nodeIntegration: true,
 
-      preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY,
       // devTools: !app.isPackaged,
     },
   });

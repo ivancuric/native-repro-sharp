@@ -28,7 +28,8 @@ module.exports = {
     rules,
   },
   externals: {
-    sharp: 'commonjs sharp',
+    sharp: 'commonjs2 sharp',
+    'video-module': 'commonjs2 video-module',
   },
   plugins,
   resolve: {

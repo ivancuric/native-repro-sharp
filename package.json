@@ -41,6 +41,7 @@
     "@emotion/babel-plugin": "^11.3.0",
     "@emotion/eslint-plugin": "^11.2.0",
     "@marshallofsound/webpack-asset-relocator-loader": "^0.5.0",
+    "@timfish/forge-externals-plugin": "^0.1.2",
     "@timfish/webpack-asset-relocator-loader": "^0.1.0",
     "@types/fs-extra": "9.0.11",
     "@types/react": "^17.0.9",

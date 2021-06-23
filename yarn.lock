@@ -1488,6 +1488,13 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
+"@timfish/forge-externals-plugin@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@timfish/forge-externals-plugin/-/forge-externals-plugin-0.1.2.tgz#1e7d05c56c66e05e12ad1b2032e12875e94041a4"
+  integrity sha512-ChktxtLZMSEwdBLp/X4Xh2SqZz7yq70/ybZpfFQv6FjCE8rZZSBXb0gRsaMVHinRgpDiTSFvnR1sGmnp4gHfnA==
+  dependencies:
+    flora-colossus "1.0.1"
+
 "@timfish/webpack-asset-relocator-loader@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@timfish/webpack-asset-relocator-loader/-/webpack-asset-relocator-loader-0.1.0.tgz#26d49e2ffdc0127489871fcb32d69ccf1be9da23"
@@ -4470,7 +4477,7 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.1.1.tgz#c4b489e80096d9df1dfc97c79871aea7c617c469"
   integrity sha512-zAoAQiudy+r5SvnSw3KJy5os/oRJYHzrzja/tBDqrZtNhUw8bt6y8OBzMWcjWr+8liV8Eb6yOhw8WZ7VFZ5ZzA==
 
-flora-colossus@^1.0.0:
+flora-colossus@1.0.1, flora-colossus@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/flora-colossus/-/flora-colossus-1.0.1.tgz#aba198425a8185341e64f9d2a6a96fd9a3cbdb93"
   integrity sha512-d+9na7t9FyH8gBJoNDSi28mE4NgQVGGvxQ4aHtFRetjyh5SXjuus+V5EZaxFmFdXVemSOrx0lsgEl/ZMjnOWJA==

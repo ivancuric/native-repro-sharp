@@ -70,6 +70,13 @@ const config = {
         },
       },
     ],
+    [
+      '@timfish/forge-externals-plugin',
+      {
+        externals: ['sharp', 'video-module'],
+        includeDeps: true,
+      },
+    ],
   ],
   // https://github.com/electron-userland/electron-forge/issues/1250#issuecomment-667543166
   // hooks: {

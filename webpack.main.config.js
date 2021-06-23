@@ -17,6 +17,7 @@ module.exports = {
     plugins: [new TsconfigPathsPlugin()],
   },
   externals: {
-    sharp: 'commonjs sharp',
+    sharp: 'commonjs2 sharp',
+    'video-module': 'commonjs2 video-module',
   },
 };

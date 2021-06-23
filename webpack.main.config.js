@@ -1,5 +1,6 @@
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const plugins = require('./webpack.plugins');
+const externals = require('./webpack.externals');
 
 module.exports = {
   /**
@@ -16,8 +17,5 @@ module.exports = {
     extensions: ['.js', '.ts', '.jsx', '.tsx', '.css', '.json'],
     plugins: [new TsconfigPathsPlugin()],
   },
-  externals: {
-    sharp: 'commonjs2 sharp',
-    'video-module': 'commonjs2 video-module',
-  },
+  externals,
 };

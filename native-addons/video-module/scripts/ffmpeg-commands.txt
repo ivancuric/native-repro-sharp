@@ -1,4 +1,0 @@
-# Some example commands to give compiled FFmpeg test run
-./ffmpeg -f avfoundation -list_devices true -i ""
-./ffmpeg -f avfoundation -framerate 20 -i "proCam" -vf scale=3840x2160 out.mpg
-./ffmpeg -f avfoundation -i "proCam"

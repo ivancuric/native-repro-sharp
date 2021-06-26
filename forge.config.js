@@ -73,7 +73,7 @@ const config = {
     [
       '@timfish/forge-externals-plugin',
       {
-        externals: ['sharp', 'video-module', 'native-hello-world'],
+        externals: ['sharp', 'native-hello-world'],
       },
     ],
   ],

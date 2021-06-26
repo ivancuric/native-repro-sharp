@@ -1,1 +1,1 @@
-The native modules (`video-module` and `sharp`) are both loaded in `index.tsx`
+The native modules (`native-hello-world` and `sharp`) are both loaded in `index.tsx`

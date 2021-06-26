@@ -15,7 +15,6 @@ function createWindow() {
     width: 1200,
     // fullscreen: true,
     webPreferences: {
-      // contextIsolation needs to be false to run video-module in renderer
       contextIsolation: false,
       nativeWindowOpen: true,
       nodeIntegrationInWorker: true,

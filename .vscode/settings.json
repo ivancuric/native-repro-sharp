@@ -8,11 +8,7 @@
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
-    "**/.DS_Store": true,
-    "native-addons/video-module/FFmpeg": true
+    "**/.DS_Store": true
   },
-  "explorerExclude.backup": null,
-  "search.exclude": {
-    "native-addons/video-module/FFmpeg": true
-  }
+  "explorerExclude.backup": null
 }

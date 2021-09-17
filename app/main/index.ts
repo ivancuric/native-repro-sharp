@@ -1,4 +1,10 @@
-import { app, BrowserWindow, shell, systemPreferences } from 'electron';
+import {
+  app,
+  BrowserWindow,
+  protocol,
+  shell,
+  systemPreferences,
+} from 'electron';
 
 // disable security warnings for live reload
 process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = 'true';
@@ -51,6 +57,18 @@ function createWindow() {
 // ready to create browser windows. Some APIs can only be used after this event
 // occurs.
 app.on('ready', () => {
+  protocol.registerFileProtocol('yolo', (request, cb) => {
+    const url = request.url.replace('yolo:///', '');
+    const decodedUrl = decodeURI(url);
+    try {
+      return cb(decodedUrl);
+    } catch (error) {
+      console.error(
+        'ERROR: registerLocalResourceProtocol: Could not get file path:',
+        error,
+      );
+    }
+  });
   createWindow();
 });
 

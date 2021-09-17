@@ -73,7 +73,7 @@ const config = {
     [
       '@timfish/forge-externals-plugin',
       {
-        externals: ['sharp', 'native-hello-world'],
+        externals: ['sharp'],
       },
     ],
   ],
